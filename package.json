@@ -1,6 +1,6 @@
 {
   "name": "camaral-cript",
-  "version": "2.0.2",
+  "version": "2.3.1",
   "description": "",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -8,9 +8,9 @@
     "lib/"
   ],
   "scripts": {
-    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
-    "prepublish": "npm run tsc",
-    "test": "npx jest"
+    "compile": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "test": "npx jest",
+    "publish": "npm publish"
   },
   "keywords": [],
   "author": "",
