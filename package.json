@@ -13,7 +13,14 @@
     "publish": "npm publish"
   },
   "keywords": [],
-  "author": "",
+  "author": "Cristian dos Santos Amaral",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camaral2/camaral-cript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/camaral2/camaral-cript/issues"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.0",
